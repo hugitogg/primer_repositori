@@ -2,6 +2,6 @@
 
 ## Presentació
 
-**Hugo campgg:** 
+**Hugo camp:** 
 
 **SMX B 2026/2027:** 
