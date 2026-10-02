@@ -34,3 +34,32 @@ Per comprovar la informació d'Ubuntu es pot utilitzar:
 ```bash
 lsb_release -a
 ```
+## Comprovacions
+
+* [ ] Ubuntu Server s'ha instal·lat correctament.
+* [ ] La màquina virtual s'inicia sense errors.
+* [ ] Es pot iniciar sessió.
+* [ ] La connexió de xarxa funciona.
+* [ ] Les comandes del sistema funcionen correctament.
+
+## Incidències i solucions
+
+| Incidència                   | Solució                                           |
+| ---------------------------- | ------------------------------------------------- |
+| No hi ha connexió a Internet | Comprovar la configuració de xarxa de VirtualBox. |
+| El teclat no correspon       | Revisar la distribució del teclat.                |
+| La màquina virtual no inicia | Comprovar la configuració de VirtualBox.          |
+| No es pot iniciar sessió     | Comprovar l'usuari i la contrasenya.              |
+
+## Imatge
+
+![Instal·lació d'Ubuntu Server](imagenes/Captura%20de%20pantalla%202026-10-02%20174513.png)
+
+## Recursos
+
+- [Documentació d'Ubuntu](https://ubuntu.com/server/docs)
+- [Documentació de GitHub](https://docs.github.com/)
+- [Documentació de VirtualBox](https://www.virtualbox.org/wiki/Documentation)ç
+ç## Flux de treball amb Git
+
+Git permet controlar les diferents versions de la documentació. Primer es comprova l'estat del repositori amb `git status`. Després es revisen els canvis amb `git diff`, s'afegeixen amb `git add` i es guarden amb `git commit`. Finalment, amb `git log` es pot consultar l'historial dels commits.
